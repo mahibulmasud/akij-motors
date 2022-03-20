@@ -1,39 +1,85 @@
 import React, { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { AiFillHome } from 'react-icons/ai';
 function SubHeader() {
-
-    const [left, setLeft] = useState('cnm_left')
-
-    const handleClick = () => {
-        if (left === 'cnm_left') {
-            setLeft('csm_right');
+    const [toggle, setToggle] = useState('left_infinte')
+    const handleClickSub = () => {
+        if(toggle === 'left_infinte'){
+            setToggle('left_zero');
         }else{
-            setLeft('cnm_left');
+            setToggle('left_infinte');
         }
     }
+
     return (
-        <div className='SubHeader_main'>
-            <div className='SubHeader_main_child_one'>
-                <div>
-                    <GiHamburgerMenu className='sub_d_ham' />
-                    <GiHamburgerMenu className='sub_m_ham' onClick={handleClick} />
-                    <span className='sub_cat_text'>categories</span>
+        <div className='position-relative'>
+            <div className='SubHeader_mains'>
+                <div className='SubHeader_main'>
+                    <div>
+                        <div>
+                            <GiHamburgerMenu className='sub_d_ham' onClick={handleClickSub} />
+                            <span className='sub_cat_text'>categories</span>
+                        </div>
+                    </div>
+                    <div></div>
+                    <div>
+                        <a href="/">commercial vehicle</a>
+                    </div>
+                    <div>
+                        <a href="/">private vehicle</a>
+                    </div>
+                    <div><a href="/">motor servicing</a></div>
+                    <div><a href="/">garage equipments</a></div>
+                    <div><a href="/">spare parts</a></div>
+                    <div><a href="/">electronic motorcycle</a></div>
+                    <div><a href="/">forklift/stacker</a></div>
+                    <div><a href="/">construction machinery</a></div>
+                    <div><a href="/">special vehicle</a></div>
                 </div>
             </div>
-            <div className='SubHeader_main_child_two'>
-                <div className={`SubHeader_nav ${left}`}>
-                    <ul className='list-unstyled mb-0'>
-                        <li><a href="/">commercial vehicle</a></li>
-                        <li><a href="/">private vehicle</a></li>
-                        <li><a href="/">motor servicing</a></li>
-                        <li><a href="/">garage equipments</a></li>
-                        <li><a href="/">spare parts</a></li>
-                        <li><a href="/">electronic motorcycle</a></li>
-                        <li><a href="/">forklift/stacker</a></li>
-                        <li><a href="/">construction machinery</a></li>
-                        <li><a href="/">special vehicle</a></li>
-                    </ul>
-                </div>
+            <div className={`subnav ${toggle}`}>
+                <ul>
+                    <li>
+                        <AiFillHome className='subnavIcon' />
+                        <a href="/" className='subnav_text'>Home</a>
+                    </li>
+                    <li>
+                        <AiFillHome className='subnavIcon' />
+                        <a href="/" className='subnav_text'>Home</a>
+                    </li>
+                    <li>
+                        <AiFillHome className='subnavIcon' />
+                        <a href="/" className='subnav_text'>Home</a>
+                    </li>
+                    <li>
+                        <AiFillHome className='subnavIcon' />
+                        <a href="/" className='subnav_text'>Home</a>
+                    </li>
+                    <li>
+                        <AiFillHome className='subnavIcon' />
+                        <a href="/" className='subnav_text'>Home</a>
+                    </li>
+                    <li>
+                        <AiFillHome className='subnavIcon' />
+                        <a href="/" className='subnav_text'>Home</a>
+                    </li>
+                    <li>
+                        <AiFillHome className='subnavIcon' />
+                        <a href="/" className='subnav_text'>Home</a>
+                    </li>
+                    <li>
+                        <AiFillHome className='subnavIcon' />
+                        <a href="/" className='subnav_text'>Home</a>
+                    </li>
+                    <li>
+                        <AiFillHome className='subnavIcon' />
+                        <a href="/" className='subnav_text'>Home</a>
+                    </li>
+                    <li>
+                        <AiFillHome className='subnavIcon' />
+                        <a href="/" className='subnav_text'>Home</a>
+                    </li>
+                </ul>
             </div>
         </div>
     )

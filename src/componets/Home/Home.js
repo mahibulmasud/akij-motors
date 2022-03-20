@@ -2,7 +2,6 @@ import React from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import SubHeader from '../SubHeader/SubHeader'
-import img from '../../assets/images/section1/homesection1.jpg'
 import hs1logo1 from '../../assets/images/section1/logo1.png'
 import hs1logo2 from '../../assets/images/section1/logo2.png'
 import Section2 from './Section2/Section2'
@@ -14,6 +13,8 @@ import hs6img from '../../assets/images/section6/hs6img.png'
 import hs7img from '../../assets/images/section7/hs7img.png'
 import hs8img from '../../assets/images/section8/hs8CardImg.png'
 import hs9img from '../../assets/images/section9/hs9Img.jpg'
+import Section10 from './Section10/Section10'
+import Section1 from './Section1/Section1'
 
 function Home() {
     return (
@@ -22,9 +23,9 @@ function Home() {
             <SubHeader />
             {/* section1 */}
             <div className="home_section1">
-                <img src={hs1logo1} className="hs1logo1" alt="" />
-                <img src={hs1logo2} className="hs1logo2" alt="" />
-                <img src={img} className='w-100' alt="" />
+                {/* <img src={hs1logo1} className="hs1logo1" alt="" />
+                <img src={hs1logo2} className="hs1logo2" alt="" /> */}
+                <Section1/>
             </div>
             {/* section1 */}
             {/* section2 */}
@@ -363,6 +364,12 @@ function Home() {
                 </div>
             </div>
             {/* section9 */}
+
+            {/* section10 */}
+            <div className='home_section10'>
+                <Section10 />
+            </div>
+            {/* section10 */}
 
             <div className='p-5'></div>
             <Footer />

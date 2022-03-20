@@ -6,37 +6,15 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .custom_nav_main {
-        position: absolute;
-        left: 0;
-        top: 100px;
-        z-index: 2;
-    }
 
     .custom_nav_child_two {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
     }
 
     .custom_humberger {
         display: block;
         cursor: pointer;
-    }
-
-    .custom_nav_main {
-        text-align: start;
-        background-color: #fff;
-        width: 100%;
-        transition: all 0.2s;
-    }
-
-    .custom_nav_main ul {
-        padding-left: 30px;
-    }
-
-    .custom_nav_main li {
-        display: block;
-        margin-top: 20px;
     }
 
     .h_dropdown_btn {
@@ -50,13 +28,21 @@
     .csm_right {
         left: 0;
     }
+    .custom_nav{
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .custom_nav>div{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 991px) {
     .hs3_first_row {
         flex-direction: column-reverse;
     }
-    .hs4_row div:nth-last-of-type(odd){
+
+    .hs4_row div:nth-last-of-type(odd) {
         padding-top: 0px;
     }
 }
@@ -71,20 +57,6 @@
         cursor: pointer;
     }
 
-    .sub_d_ham {
-        display: none;
-    }
-
-    .SubHeader_nav {
-        position: absolute;
-        left: 0;
-        top: 80px;
-        background: #000;
-        text-align: start;
-        width: 100%;
-        transition: left 0.2s;
-        z-index: 1;
-    }
 
     .cnm_left {
         left: -2000px;
@@ -94,13 +66,6 @@
         left: 0;
     }
 
-    .SubHeader_nav ul {
-        padding-left: 30px;
-    }
-
-    .SubHeader_nav ul li {
-        display: block;
-    }
 
     .hs2_part2 {
         grid-template-columns: 1fr;
@@ -111,31 +76,65 @@
         margin-top: 16px;
     }
 
-    .hs7_section7_card img{
+    .hs7_section7_card img {
         width: 200px;
     }
 
-    .hs7_section7_row{
+    .hs7_section7_row {
         grid-template-columns: 1fr;
     }
 
-    .hs8img{
+    .hs8img {
         width: 100%;
         position: relative;
         bottom: -28px;
     }
 
+    .home_section10_carrosal {
+        grid-template-columns: 1fr;
+    }
 
+    .hs10c_child1 {
+        text-align: center;
+    }
+
+    .hs10arrow_main {
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .hs3Img {
         width: 100%;
     }
-    .hs7_section7_row{
+
+    .hs7_section7_row {
         width: 80%;
         margin: 0 auto;
     }
+
+    .hs7_card_img_div {
+        box-shadow: 20px 20px 1px 1px #eaeaea;
+    }
+
+    .hs7_card_img_div_two {
+        box-shadow: 20px 20px 1px 1px #eaeaea;
+    }
+
+    .custom_nav_child_two a {
+        font-size: 9px;
+    }
+    .h_dropdown_btn{
+        font-size: 8px !important;
+    }
+
+    .custom_nav_main li:nth-of-type(1){
+        display: block;
+    }
+    .custom_nav_main li:nth-of-type(2){
+        display: block;
+    }
+
 }
 
 /* responsive end */

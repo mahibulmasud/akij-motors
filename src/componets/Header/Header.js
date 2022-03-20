@@ -6,25 +6,13 @@ import { FiSearch } from 'react-icons/fi';
 import { Dropdown } from 'react-bootstrap';
 
 function Header() {
-
-    const [left, setLeft] = useState('cnm_left')
-
-    const handleClick = () => {
-        if (left === 'cnm_left') {
-            setLeft('csm_right');
-        }else{
-            setLeft('cnm_left');
-        }
-    }
-
-
     return (
         <div className='custom_nav'>
             <div className='custom_nav_child_one'>
                 <img src={logo} className='logo_img' alt="" />
             </div>
             <div className='custom_nav_child_two'>
-                <div className={`custom_nav_main ${left}`}>
+                <div className={`custom_nav_main`}>
                     <ul className='list-unstyled'>
                         <li>
                             <Dropdown className='h_dropdown'>
@@ -49,11 +37,11 @@ function Header() {
                         <li><a href="/">contact</a></li>
                     </ul>
                 </div>
-                <div className='custom_humberger' onClick={handleClick}>
+                {/* <div className='custom_humberger'>
                     <div className='humberger_Line_one'></div>
                     <div className='humberger_Line_two'></div>
                     <div className='humberger_Line_three'></div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
