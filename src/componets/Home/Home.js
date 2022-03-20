@@ -241,7 +241,7 @@ function Home() {
                 <p className='para1 text-center mb-5'>
                     Once people deal with us they are very eager to take the next servics. <br /> Our vehicles are qualityful which is easily chosen by the client.
                 </p>
-                {/* <div>
+                <div>
                     <Row>
                         <Col lg='4' md='6'>
                             <div>
@@ -249,7 +249,7 @@ function Home() {
                             </div>
                         </Col>
                     </Row>
-                </div> */}
+                </div>
             </div>
             {/* section7 */}
             <Footer />
