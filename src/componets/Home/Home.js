@@ -2,8 +2,8 @@ import React from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import SubHeader from '../SubHeader/SubHeader'
-// import hs1logo1 from '../../assets/images/section1/logo1.png'
-// import hs1logo2 from '../../assets/images/section1/logo2.png'
+import hs1logo1 from '../../assets/images/section1/logo1.png'
+import hs1logo2 from '../../assets/images/section1/logo2.png'
 import Section2 from './Section2/Section2'
 import { Col, Container, Row } from 'react-bootstrap'
 import hs3Img from '../../assets/images/section3/section3RightImg.png'
@@ -23,8 +23,8 @@ function Home() {
             <SubHeader />
             {/* section1 */}
             <div className="home_section1">
-                {/* <img src={hs1logo1} className="hs1logo1" alt="" />
-                <img src={hs1logo2} className="hs1logo2" alt="" /> */}
+                <img src={hs1logo1} className="hs1logo1 hs1logo" alt="" />
+                <img src={hs1logo2} className="hs1logo2 hs1logo" alt="" />
                 <Section1/>
             </div>
             {/* section1 */}

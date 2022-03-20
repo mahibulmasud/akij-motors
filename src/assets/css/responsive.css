@@ -6,7 +6,9 @@
 }
 
 @media only screen and (max-width: 1024px) {
-
+    .custom_nav_child_one{
+        padding-top: 20px;
+    }
     .custom_nav_child_two {
         display: flex;
         justify-content: center;
@@ -104,6 +106,9 @@
     .hs10arrow_main {
         justify-content: center;
     }
+    .hs1logo{
+        width: 70px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -150,6 +155,9 @@
 
     .footer_inner {
         padding: 0px 40px;
+    }
+    .hs1logo{
+        width: 35px;
     }
 }
 
