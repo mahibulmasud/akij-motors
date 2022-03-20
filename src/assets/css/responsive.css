@@ -28,11 +28,13 @@
     .csm_right {
         left: 0;
     }
-    .custom_nav{
+
+    .custom_nav {
         grid-template-columns: 1fr;
         grid-gap: 10px;
     }
-    .custom_nav>div{
+
+    .custom_nav>div {
         text-align: center;
     }
 }
@@ -85,9 +87,10 @@
     }
 
     .hs8img {
+        bottom: -28px;
         width: 100%;
         position: relative;
-        bottom: -28px;
+        bottom: -71px;
     }
 
     .home_section10_carrosal {
@@ -124,23 +127,28 @@
     .custom_nav_child_two a {
         font-size: 9px;
     }
-    .h_dropdown_btn{
+
+    .h_dropdown_btn {
         font-size: 8px !important;
     }
 
-    .custom_nav_main li:nth-of-type(1){
+    .custom_nav_main li:nth-of-type(1) {
         display: block;
     }
-    .custom_nav_main li:nth-of-type(2){
+
+    .custom_nav_main li:nth-of-type(2) {
         display: block;
     }
-    .subnav{
+
+    .subnav {
         width: 100%;
     }
+
     .home_banner_img {
         height: 270px;
     }
-    .footer_inner{
+
+    .footer_inner {
         padding: 0px 40px;
     }
 }
