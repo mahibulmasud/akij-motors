@@ -134,7 +134,15 @@
     .custom_nav_main li:nth-of-type(2){
         display: block;
     }
-
+    .subnav{
+        width: 100%;
+    }
+    .home_banner_img {
+        height: 270px;
+    }
+    .footer_inner{
+        padding: 0px 40px;
+    }
 }
 
 /* responsive end */

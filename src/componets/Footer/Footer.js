@@ -6,8 +6,8 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 function Footer() {
     return (
         <div className='footer'>
-            <Container>
-                <Row>
+            <Container >
+                <Row className='footer_inner'>
                     <Col lg='3' md='6'>
                         <div>
                             <img src={logo} className='w-100' alt="" />

@@ -164,6 +164,10 @@
     overflow: auto;
 }
 
+.SubHeader_mains::-webkit-scrollbar {
+    width: 0px;
+}
+
 .SubHeader_main {
     min-height: 80px;
     width: 100%;
