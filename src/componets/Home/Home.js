@@ -11,6 +11,7 @@ import hs3Img from '../../assets/images/section3/section3RightImg.png'
 import hs4Img1 from '../../assets/images/section4/icon1.png'
 import hs5Img from '../../assets/images/section5/hs5img.png'
 import hs6img from '../../assets/images/section6/hs6img.png'
+import hs7img from '../../assets/images/section7/hs7img.png'
 
 function Home() {
     return (
@@ -135,53 +136,53 @@ function Home() {
                     <h4 className='title2'>Our Top Rated Services</h4>
                 </div>
                 <p className='para1 text-center mb-5'>
-                Once people deal with us they are very eager to take the next servics. <br /> Our vehicles are qualityful which is easily chosen by the client.
+                    Once people deal with us they are very eager to take the next servics. <br /> Our vehicles are qualityful which is easily chosen by the client.
                 </p>
                 <div className='hs5_row_main'>
-                    <Row className='g-4'>
-                    <Col lg='6'>
-                        <div>
-                            <img src={hs5Img} className='w-100' alt="" />
-                        </div>
-                    </Col>
-                    <Col lg='6' className='hs5_col2'>
-                        <div>
-                            <Row className='g-4 p-4'>
-                                <Col md='6'>
-                                    <div>
-                                        <h5 className='hs5_inner_title mb-4'>Powerful engine,strong chasis</h5>
-                                        <p>
-                                        We use engines which follow garmany technologies. We also have original ichijo engines(japan), Nishan petrol pump engines (japan), single weichai engines e.tc.
-                                        </p>
-                                    </div>
-                                </Col>
-                                <Col md='6'>
-                                    <div>
-                                        <h5 className='hs5_inner_title mb-4'>Powerful engine,strong chasis</h5>
-                                        <p>
-                                        We use engines which follow garmany technologies. We also have original ichijo engines(japan), Nishan petrol pump engines (japan), single weichai engines e.tc.
-                                        </p>
-                                    </div>
-                                </Col>
-                                <Col md='6'>
-                                    <div>
-                                        <h5 className='hs5_inner_title mb-4'>Powerful engine,strong chasis</h5>
-                                        <p>
-                                        We use engines which follow garmany technologies. We also have original ichijo engines(japan), Nishan petrol pump engines (japan), single weichai engines e.tc.
-                                        </p>
-                                    </div>
-                                </Col>
-                                <Col md='6'>
-                                    <div>
-                                        <h5 className='hs5_inner_title mb-4'>Powerful engine,strong chasis</h5>
-                                        <p>
-                                        We use engines which follow garmany technologies. We also have original ichijo engines(japan), Nishan petrol pump engines (japan), single weichai engines e.tc.
-                                        </p>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </div>
-                    </Col>
+                    <Row className='g-4 m-0'>
+                        <Col lg='6'>
+                            <div>
+                                <img src={hs5Img} className='w-100' alt="" />
+                            </div>
+                        </Col>
+                        <Col lg='6' className='hs5_col2'>
+                            <div>
+                                <Row className='g-4 p-4 m-0'>
+                                    <Col md='6'>
+                                        <div>
+                                            <h5 className='hs5_inner_title mb-4'>Powerful engine,strong chasis</h5>
+                                            <p>
+                                                We use engines which follow garmany technologies. We also have original ichijo engines(japan), Nishan petrol pump engines (japan), single weichai engines e.tc.
+                                            </p>
+                                        </div>
+                                    </Col>
+                                    <Col md='6'>
+                                        <div>
+                                            <h5 className='hs5_inner_title mb-4'>Powerful engine,strong chasis</h5>
+                                            <p>
+                                                We use engines which follow garmany technologies. We also have original ichijo engines(japan), Nishan petrol pump engines (japan), single weichai engines e.tc.
+                                            </p>
+                                        </div>
+                                    </Col>
+                                    <Col md='6'>
+                                        <div>
+                                            <h5 className='hs5_inner_title mb-4'>Powerful engine,strong chasis</h5>
+                                            <p>
+                                                We use engines which follow garmany technologies. We also have original ichijo engines(japan), Nishan petrol pump engines (japan), single weichai engines e.tc.
+                                            </p>
+                                        </div>
+                                    </Col>
+                                    <Col md='6'>
+                                        <div>
+                                            <h5 className='hs5_inner_title mb-4'>Powerful engine,strong chasis</h5>
+                                            <p>
+                                                We use engines which follow garmany technologies. We also have original ichijo engines(japan), Nishan petrol pump engines (japan), single weichai engines e.tc.
+                                            </p>
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </div>
+                        </Col>
                     </Row>
                 </div>
             </div>
@@ -233,6 +234,23 @@ function Home() {
             {/* section6 */}
 
             {/* section7 */}
+            <div className='home_section7'>
+                <div className='text-center mb-5'>
+                    <h4 className='title2'>Largest Selection of Vehicles</h4>
+                </div>
+                <p className='para1 text-center mb-5'>
+                    Once people deal with us they are very eager to take the next servics. <br /> Our vehicles are qualityful which is easily chosen by the client.
+                </p>
+                {/* <div>
+                    <Row>
+                        <Col lg='4' md='6'>
+                            <div>
+                                <img src={hs7img} alt="" />
+                            </div>
+                        </Col>
+                    </Row>
+                </div> */}
+            </div>
             {/* section7 */}
             <Footer />
         </>
