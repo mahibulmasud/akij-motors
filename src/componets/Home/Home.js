@@ -13,6 +13,7 @@ import hs5Img from '../../assets/images/section5/hs5img.png'
 import hs6img from '../../assets/images/section6/hs6img.png'
 import hs7img from '../../assets/images/section7/hs7img.png'
 import hs8img from '../../assets/images/section8/hs8CardImg.png'
+import hs9img from '../../assets/images/section9/hs9Img.jpg'
 
 function Home() {
     return (
@@ -290,6 +291,78 @@ function Home() {
                 </Container>
             </div>
             {/* section8 */}
+
+            {/* section9 */}
+            <div className='home_section9'>
+                <div className='text-center mb-5'>
+                    <h4 className='title3'>From Our Blog</h4>
+
+                    <div className='hs9button_div'>
+                        <span className='hs9button_div_text'>Helpful Vehicle Buying</span>
+                    </div>
+                </div>
+                <div>
+                    <Container>
+                        <Row className='m-0 g-4'>
+                            <Col lg='4' md='6'>
+                                <div className='hs9_card'>
+                                    <img src={hs9img} className='hs9img mb-3' alt="" />
+                                    <h4 className='title3'>Latest News</h4>
+                                    <p className='para1 mt-4'>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima minus distinctio sit laborum autem dolore.
+                                    </p>
+                                </div>
+                            </Col>
+                            <Col lg='4' md='6'>
+                                <div className='hs9_card'>
+                                    <img src={hs9img} className='hs9img mb-3' alt="" />
+                                    <h4 className='title3'>Latest News</h4>
+                                    <p className='para1 mt-4'>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima minus distinctio sit laborum autem dolore.
+                                    </p>
+                                </div>
+                            </Col>
+                            <Col lg='4' md='6'>
+                                <div className='hs9_card'>
+                                    <img src={hs9img} className='hs9img mb-3' alt="" />
+                                    <h4 className='title3'>Latest News</h4>
+                                    <p className='para1 mt-4'>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima minus distinctio sit laborum autem dolore.
+                                    </p>
+                                </div>
+                            </Col>
+                            <Col lg='4' md='6'>
+                                <div className='hs9_card'>
+                                    <img src={hs9img} className='hs9img mb-3' alt="" />
+                                    <h4 className='title3'>Latest News</h4>
+                                    <p className='para1 mt-4'>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima minus distinctio sit laborum autem dolore.
+                                    </p>
+                                </div>
+                            </Col>
+                            <Col lg='4' md='6'>
+                                <div className='hs9_card'>
+                                    <img src={hs9img} className='hs9img mb-3' alt="" />
+                                    <h4 className='title3'>Latest News</h4>
+                                    <p className='para1 mt-4'>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima minus distinctio sit laborum autem dolore.
+                                    </p>
+                                </div>
+                            </Col>
+                            <Col lg='4' md='6'>
+                                <div className='hs9_card'>
+                                    <img src={hs9img} className='hs9img mb-3' alt="" />
+                                    <h4 className='title3'>Latest News</h4>
+                                    <p className='para1 mt-4'>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima minus distinctio sit laborum autem dolore.
+                                    </p>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+            </div>
+            {/* section9 */}
 
             <div className='p-5'></div>
             <Footer />
