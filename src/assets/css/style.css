@@ -19,7 +19,7 @@
     position: relative;
 }
 
-c .title_line1 {
+.title_line1 {
     width: 50px;
     height: 2px;
     background-color: var(--colorRed);
@@ -355,7 +355,7 @@ c .title_line1 {
     border-radius: 15px;
 }
 
-.hs4_row_card img{
+.hs4_row_card img {
     padding: 30px 0px;
 }
 
@@ -363,13 +363,14 @@ c .title_line1 {
     height: 300px;
 } */
 
-.hs4_row div:nth-last-of-type(odd){
+.hs4_row div:nth-last-of-type(odd) {
     padding-top: 50px;
 }
+
 /* section4 */
 
 /* section5 */
-.hs5_row_main{
+.hs5_row_main {
     background-color: #000;
 }
 
@@ -379,7 +380,7 @@ c .title_line1 {
     align-items: center;
 }
 
-.hs5_inner_title{
+.hs5_inner_title {
     font-size: 22px;
     position: relative;
 }
@@ -393,20 +394,95 @@ c .title_line1 {
     position: absolute;
     width: 100px;
 }
+
 /* section5 */
 
 /* section6 */
-.home_section6{
+.home_section6 {
     background-color: #fff;
     padding: 40px 0px;
 }
+
 .hs6_title {
     position: absolute;
     top: 10px;
     right: 10px;
     color: #fff;
 }
+
 /* section6 */
+
+/* section7 */
+.home_section7 {
+    background: #F7FAFC;
+    padding-top: 50px;
+}
+
+.hs7_card_img_div {
+    padding: 60px;
+    box-shadow: 30px 30px 1px 1px #eaeaea;
+    background-color: #fff;
+}
+
+.hs7_card_img_div_two {
+    padding: 60px;
+    box-shadow: 30px 30px 1px 1px var(--colorRed);
+    background-color: #fff;
+}
+
+.hs7_section7_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+}
+
+.hs7_section7_card {
+    text-align: center;
+}
+
+.hs7_title {
+    color: var(--colorBlue);
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.hs7_btn {
+    border: 0;
+    background-color: var(--colorRed);
+    font-size: 18px;
+    padding: 5px 40px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+/* section7 end */
+
+/* section8 start */
+.home_section8 {
+    background: var(--colorRed);
+    padding: 50px 0px;
+    color: #fff;
+    margin-top: 150px;
+    position: relative;
+}
+
+.Btn_More {
+    border: 0;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 5px 40px;
+    color: var(--colorRed);
+    border-radius: 25px;
+}
+
+.hs8img{
+    width: 40%;
+    position: absolute;
+    bottom: -28px;
+}
+
+/* section8 end */
 
 /* footer style start */
 .footer {

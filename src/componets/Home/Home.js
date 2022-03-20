@@ -12,6 +12,7 @@ import hs4Img1 from '../../assets/images/section4/icon1.png'
 import hs5Img from '../../assets/images/section5/hs5img.png'
 import hs6img from '../../assets/images/section6/hs6img.png'
 import hs7img from '../../assets/images/section7/hs7img.png'
+import hs8img from '../../assets/images/section8/hs8CardImg.png'
 
 function Home() {
     return (
@@ -95,7 +96,7 @@ function Home() {
                     Akij motors solely believes in total customer satisfaction with "Trust and Mutual Benefit". In low cost <br /> quality products selling is our commitment. There's many variety, design, comfort combinations for <br /> choosing the best product for the client. You can see the statistics of our happy client here.
                 </p>
                 <Container>
-                    <Row className='g-5 hs4_row'>
+                    <Row className='g-5 hs4_row m-0'>
                         <Col lg='3' md='6'>
                             <div className='hs4_row_card'>
                                 <img src={hs4Img1} alt="" />
@@ -242,16 +243,55 @@ function Home() {
                     Once people deal with us they are very eager to take the next servics. <br /> Our vehicles are qualityful which is easily chosen by the client.
                 </p>
                 <div>
-                    <Row>
-                        <Col lg='4' md='6'>
-                            <div>
-                                <img src={hs7img} alt="" />
+                    <Container>
+                        <div className='hs7_section7_row'>
+                            <div className='hs7_section7_card'>
+                                <div className='hs7_card_img_div'>
+                                    <img src={hs7img} className="w-100" alt="" />
+                                </div>
+                                <p className='hs7_title'>Find Bikes</p>
+                                <button className='hs7_btn'>11,542</button>
                             </div>
-                        </Col>
-                    </Row>
+                            <div className='hs7_section7_card'>
+                                <div className='hs7_card_img_div_two'>
+                                    <img src={hs7img} className="w-100" alt="" />
+                                </div>
+                                <p className='hs7_title'>Find Bikes</p>
+                                <button className='hs7_btn'>11,542</button>
+                            </div>
+                            <div className='hs7_section7_card'>
+                                <div className='hs7_card_img_div'>
+                                    <img src={hs7img} className="w-100" alt="" />
+                                </div>
+                                <p className='hs7_title'>Find Bikes</p>
+                                <button className='hs7_btn'>11,542</button>
+                            </div>
+                        </div>
+                    </Container>
                 </div>
             </div>
             {/* section7 */}
+
+            {/* section8 */}
+            <div className='home_section8'>
+                <Container>
+                    <Row className='m-0'>
+                        <Col md='6'>
+                            <div>
+                                <h4>Start Today. Drive Today</h4>
+                                <p>Best Private Vehicles</p>
+                                <button className='Btn_More'>More</button>
+                            </div>
+                        </Col>
+                        <Col md='6'>
+                            <img src={hs8img} className='hs8img' alt="" />
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+            {/* section8 */}
+
+            <div className='p-5'></div>
             <Footer />
         </>
     )

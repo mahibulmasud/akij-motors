@@ -111,12 +111,30 @@
         margin-top: 16px;
     }
 
+    .hs7_section7_card img{
+        width: 200px;
+    }
+
+    .hs7_section7_row{
+        grid-template-columns: 1fr;
+    }
+
+    .hs8img{
+        width: 100%;
+        position: relative;
+        bottom: -28px;
+    }
+
 
 }
 
 @media only screen and (max-width: 600px) {
     .hs3Img {
         width: 100%;
+    }
+    .hs7_section7_row{
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
