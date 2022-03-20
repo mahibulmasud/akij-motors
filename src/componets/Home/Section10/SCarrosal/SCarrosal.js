@@ -40,7 +40,106 @@ class SCarrosal extends Component {
                         itemsToShow={2}
                         showArrows={false}
                         breakPoints={breakPoints}
+                        enableAutoPlay
                     >
+                        <Item>
+                            <p className='hs10_number'>01/03</p>
+                            <p className='para1'>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto asperiores autem tempore quidem rem officia id ducimus doloribus optio, illum aspernatur maiores cupiditate porro, sunt expedita, iusto nostrum laborum!
+                            </p>
+                            <div className='hs10_card_footer'>
+                                <div>
+                                    <img src={img} className="hs10img" alt="" />
+                                </div>
+                                <div>
+                                    <p>Mario Selia</p>
+                                </div>
+                            </div>
+                        </Item>
+                        <Item>
+                            <p className='hs10_number'>01/03</p>
+                            <p className='para1'>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto asperiores autem tempore quidem rem officia id ducimus doloribus optio, illum aspernatur maiores cupiditate porro, sunt expedita, iusto nostrum laborum!
+                            </p>
+                            <div className='hs10_card_footer'>
+                                <div>
+                                    <img src={img} className="hs10img" alt="" />
+                                </div>
+                                <div>
+                                    <p>Mario Selia</p>
+                                </div>
+                            </div>
+                        </Item>
+                        <Item>
+                            <p className='hs10_number'>01/03</p>
+                            <p className='para1'>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto asperiores autem tempore quidem rem officia id ducimus doloribus optio, illum aspernatur maiores cupiditate porro, sunt expedita, iusto nostrum laborum!
+                            </p>
+                            <div className='hs10_card_footer'>
+                                <div>
+                                    <img src={img} className="hs10img" alt="" />
+                                </div>
+                                <div>
+                                    <p>Mario Selia</p>
+                                </div>
+                            </div>
+                        </Item>
+                        <Item>
+                            <p className='hs10_number'>01/03</p>
+                            <p className='para1'>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto asperiores autem tempore quidem rem officia id ducimus doloribus optio, illum aspernatur maiores cupiditate porro, sunt expedita, iusto nostrum laborum!
+                            </p>
+                            <div className='hs10_card_footer'>
+                                <div>
+                                    <img src={img} className="hs10img" alt="" />
+                                </div>
+                                <div>
+                                    <p>Mario Selia</p>
+                                </div>
+                            </div>
+                        </Item>
+                        <Item>
+                            <p className='hs10_number'>01/03</p>
+                            <p className='para1'>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto asperiores autem tempore quidem rem officia id ducimus doloribus optio, illum aspernatur maiores cupiditate porro, sunt expedita, iusto nostrum laborum!
+                            </p>
+                            <div className='hs10_card_footer'>
+                                <div>
+                                    <img src={img} className="hs10img" alt="" />
+                                </div>
+                                <div>
+                                    <p>Mario Selia</p>
+                                </div>
+                            </div>
+                        </Item>
+                        <Item>
+                            <p className='hs10_number'>01/03</p>
+                            <p className='para1'>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto asperiores autem tempore quidem rem officia id ducimus doloribus optio, illum aspernatur maiores cupiditate porro, sunt expedita, iusto nostrum laborum!
+                            </p>
+                            <div className='hs10_card_footer'>
+                                <div>
+                                    <img src={img} className="hs10img" alt="" />
+                                </div>
+                                <div>
+                                    <p>Mario Selia</p>
+                                </div>
+                            </div>
+                        </Item>
+                        <Item>
+                            <p className='hs10_number'>01/03</p>
+                            <p className='para1'>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto asperiores autem tempore quidem rem officia id ducimus doloribus optio, illum aspernatur maiores cupiditate porro, sunt expedita, iusto nostrum laborum!
+                            </p>
+                            <div className='hs10_card_footer'>
+                                <div>
+                                    <img src={img} className="hs10img" alt="" />
+                                </div>
+                                <div>
+                                    <p>Mario Selia</p>
+                                </div>
+                            </div>
+                        </Item>
                         <Item>
                             <p className='hs10_number'>01/03</p>
                             <p className='para1'>

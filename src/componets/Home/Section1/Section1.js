@@ -12,7 +12,6 @@ function Section1() {
                 itemsToShow={1}
                 showArrows={false}
                 enableAutoPlay 
-                autoPlaySpeed={3000}
             >
                 <Card>
                     <img src={img} className='home_banner_img' alt="" />
